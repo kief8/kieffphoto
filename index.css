@@ -9,6 +9,11 @@ main {
     display: -webkit-flex;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 aside {
     -webkit-flex: 1;
     -ms-flex: 1;
