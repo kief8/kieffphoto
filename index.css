@@ -90,7 +90,7 @@ ul li {
     opacity: 0;
     display: flex;
     align-items: center;
-    align-content: center;
+    justify-content: center;
 }
 
 .img-wrap:hover .category-layer {
