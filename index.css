@@ -93,6 +93,12 @@ ul li {
     justify-content: center;
 }
 
+.category-layer h3 {
+    font-family: "Raleway";
+    font-size: 15px;
+    color: greenyellow;
+}
+
 .img-wrap:hover .category-layer {
     visibility: visible;
     opacity: 1;
