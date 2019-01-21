@@ -73,6 +73,31 @@ ul li {
     max-width: 99%;
 }
 
+.img-wrap {
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.category-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: azure;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.img-wrap:hover .category-layer {
+    visibility: visible;
+    opacity: 1;
+}
+
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -80,7 +105,7 @@ ul li {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     aside {
         margin-bottom: 30px;
     }
