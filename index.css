@@ -22,23 +22,23 @@ aside {
 }
 
 h1 {
-    font-family: "Megrim";
-    font-size: 35px;
+    font-family: "Space Mono";
+    font-size: 25px;
     letter-spacing: 2px;
 }
 
-h2 {
-    font-family: "Raleway";
-    font-size: 18px;
-    letter-spacing: 2px;
+p {
+    font-family: "Space Mono";
+    font-size: 13px;
 }
 
 ul {
     list-style-type: none;
     position: relative;
-    top: 35px;
-    font-family: "Raleway";
-    font-size: 12px;
+    top: 20px;
+    font-family: "Space Mono";
+    font-size: 14px;
+    padding-bottom: 15px;
 }
 
 ul li {
@@ -94,7 +94,7 @@ ul li {
 }
 
 .category-layer h3 {
-    font-family: "Raleway";
+    font-family: "Space Mono";
     font-size: 15px;
     color: greenyellow;
 }
