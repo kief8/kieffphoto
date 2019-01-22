@@ -23,19 +23,26 @@ aside {
 
 h1 {
     font-family: "Space Mono";
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 2px;
+    background-color: #a893cc;
+    padding-left: 5px;
 }
 
-p {
+h2 {
     font-family: "Space Mono";
     font-size: 13px;
+    letter-spacing: 2px;
+    font-style: italic;
+    position: relative;
+    top: 5px;
+    padding-left: 5px;
 }
 
 ul {
     list-style-type: none;
     position: relative;
-    top: 20px;
+    top: 45px;
     font-family: "Space Mono";
     font-size: 14px;
     padding-bottom: 15px;
@@ -95,8 +102,8 @@ ul li {
 
 .category-layer h3 {
     font-family: "Space Mono";
-    font-size: 15px;
-    color: greenyellow;
+    font-size: 35px;
+    color: #a893cc;
 }
 
 .img-wrap:hover .category-layer {
@@ -109,9 +116,9 @@ ul li {
         flex: 50%;
         max-width: 50%;
     }
-}
+} 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     aside {
         margin-bottom: 30px;
     }
