@@ -96,9 +96,8 @@ ul li {
     bottom: 0;
     left: 0;
     right: 0;
-    color: azure;
-    visibility: hidden;
-    opacity: 0;
+    visibility: visible;
+    opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +114,7 @@ ul li {
     opacity: 1;
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
     aside {
         position: relative;
         margin-bottom: 30px;
@@ -139,9 +138,28 @@ ul li {
         flex: 33%;
         max-width: 33%;
     }
+    
+    .category-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: azure;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+    .img-wrap:hover .category-layer {
+    visibility: visible;
+    opacity: 1;
+}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 899px) {
     aside {
         margin-bottom: 0;
         order: 0;
