@@ -22,10 +22,10 @@ aside {
 }
 
 h1 {
-    font-family: "Space Mono";
-    font-size: 20px;
-    letter-spacing: 2px;
-    background-color: #a893cc;
+    font-family: "Vampiro One";
+    font-size: 25px;
+    letter-spacing: 4px;
+    //*background-color: #a893cc;*//
     padding-left: 5px;
 }
 
@@ -105,7 +105,7 @@ ul li {
 
 .category-layer h3 {
     font-family: "Space Mono";
-    font-size: 35px;
+    font-size: 25px;
     color: #a893cc;
 }
 
@@ -180,7 +180,7 @@ ul li {
     }
     
     h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     main {
