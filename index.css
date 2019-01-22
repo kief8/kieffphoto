@@ -161,9 +161,10 @@ ul li {
 
 @media screen and (max-width: 899px) {
     aside {
-        margin-bottom: 0;
+        margin-bottom: 5px;
         order: 0;
         padding-bottom: 30px;
+        background-color: #a3d2d5;
     }
     
     .nav {
