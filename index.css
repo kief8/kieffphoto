@@ -106,7 +106,6 @@ ul li {
 .category-layer h3 {
     font-family: "Space Mono";
     font-size: 25px;
-    color: #a893cc;
 }
 
 .img-wrap:hover .category-layer {
@@ -145,7 +144,7 @@ ul li {
     bottom: 0;
     left: 0;
     right: 0;
-    color: azure;
+    color: #a3d2d5;
     visibility: hidden;
     opacity: 0;
     display: flex;
