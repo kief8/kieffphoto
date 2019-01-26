@@ -85,7 +85,18 @@ ul li {
     position: absolute;
     z-index: 1;
     top: -5px;
-    left: 115%;
+    left: 125%;
+}
+
+.tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #a3d2d5 transparent transparent;
 }
 
 .tooltip:hover .tooltip-text {
