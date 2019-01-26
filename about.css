@@ -104,6 +104,7 @@ ul li {
 }
 
 .info {
+    position: relative;
     display: flex;
     flex: 4;
     flex-flow: wrap;
@@ -115,18 +116,20 @@ ul li {
     font-family: "Space Mono";
     font-size: 12px;
     width: 50%;
-    height: 30%;
+    height: 25%;
     padding-right: 20px;
 }
 
 .bio-pic {
     width: 50%;
-    height: 30%;
     padding-right: 20px;
 }
 
 .contact-form {
-   width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+       
 }
 
 @media screen and (min-width: 800px) {
