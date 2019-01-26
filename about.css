@@ -103,6 +103,32 @@ ul li {
     visibility: visible;
 }
 
+.info {
+    display: flex;
+    flex: 4;
+    flex-flow: wrap;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+.bio {
+    font-family: "Space Mono";
+    font-size: 12px;
+    width: 50%;
+    height: 30%;
+    padding-right: 20px;
+}
+
+.bio-pic {
+    width: 50%;
+    height: 30%;
+    padding-right: 20px;
+}
+
+.contact-form {
+   width: 100%;
+}
+
 @media screen and (min-width: 800px) {
     aside {
         position: relative;
