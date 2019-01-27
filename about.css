@@ -33,6 +33,7 @@ h1 {
     font-size: 25px;
     letter-spacing: 4px;
     padding-left: 5px;
+    text-shadow: 2px 2px #a3d2d5; 
 }
 
 h2 {
@@ -114,6 +115,8 @@ ul li {
 h4 {
     font-family: "Space Mono";
     font-size: 20px;
+    text-shadow: 3px 5px #a3d2d5;
+    padding-bottom: 20px;
 }
 
 input, textarea {
@@ -157,6 +160,11 @@ input, textarea {
     
     .bio-section, .bio-pic {
         flex: 0 0 50%;
+    }
+    
+    .bio-pic img {
+        display: block;
+        margin: 0 auto;
     }
     
     .contact-container {
@@ -223,8 +231,10 @@ input, textarea {
         text-align: center;
     }
     
-    .bio-pic {
-        text-align: center;
+    .bio-pic img {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10px;
     }
     
     h4 {
