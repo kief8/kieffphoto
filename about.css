@@ -103,6 +103,14 @@ ul li {
     visibility: visible;
 }
 
+input, textarea {
+    font-family: "Space Mono";
+    border: 2px solid #a3d2d5;
+    width: 95%;
+    padding: 3px;
+    margin: 5px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 800px) {
     aside {
@@ -124,9 +132,8 @@ ul li {
         padding: 0;
     }
     
-    .column {
-        flex: 33%;
-        max-width: 33%;
+    .info-section {
+        flex: 4;
     }
 }
 
@@ -178,10 +185,19 @@ ul li {
         visibility: visible;
     }
     
-    .column {
+    .info-section {
         order: 1;
-        flex: 100%;
+        flex-flow: column nowrap;
         max-width: 100%;
+    }
+    
+    .bio-section {
+        padding: 0 15px 15px 15px;
+        text-align: center;
+    }
+    
+    .bio-pic {
+        text-align: center;
     }
     
     footer p {
