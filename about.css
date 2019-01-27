@@ -32,7 +32,6 @@ h1 {
     font-family: "Vampiro One";
     font-size: 25px;
     letter-spacing: 4px;
-    //*background-color: #a893cc;*//
     padding-left: 5px;
 }
 
@@ -103,9 +102,24 @@ ul li {
     visibility: visible;
 }
 
+.info-section {
+    padding-top: 15px;
+}
+
+.info-section p {
+    font-family: "Space Mono";
+    font-size: 14px;
+}
+
+h4 {
+    font-family: "Space Mono";
+    font-size: 20px;
+}
+
 input, textarea {
     font-family: "Space Mono";
     border: 2px solid #a3d2d5;
+    background-color: #e9f5f5;
     width: 95%;
     padding: 3px;
     margin: 5px;
@@ -134,6 +148,19 @@ input, textarea {
     
     .info-section {
         flex: 4;
+    }
+    
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .bio-section, .bio-pic {
+        flex: 0 0 50%;
+    }
+    
+    .contact-container {
+        flex: 0 0 100%;
     }
 }
 
@@ -197,6 +224,11 @@ input, textarea {
     }
     
     .bio-pic {
+        text-align: center;
+    }
+    
+    h4 {
+        margin-top: 10px;
         text-align: center;
     }
     
